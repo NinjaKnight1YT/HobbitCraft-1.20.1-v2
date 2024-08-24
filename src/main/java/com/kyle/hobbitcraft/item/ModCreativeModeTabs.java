@@ -22,10 +22,13 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.DREADED_INGOT.get());
                         output.accept(ModBlocks.DREADED_BLOCK.get());
+                        output.accept(ModItems.DREADED_SWORD.get());
                         output.accept(ModItems.KYLE_INGOT.get());
                         output.accept(ModBlocks.KYLE_BLOCK.get());
+                        output.accept(ModItems.KYLE_SWORD.get());
                         output.accept(ModItems.WIBKITIUM_INGOT.get());
                         output.accept(ModBlocks.WIBKITIUM_BLOCK.get());
+                        output.accept(ModItems.WIBKITIUM_SWORD.get());
                     })
                     .build());
 

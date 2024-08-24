@@ -18,8 +18,11 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.DREADED_INGOT);
+        simpleItem(ModItems.DREADED_SWORD);
         simpleItem(ModItems.KYLE_INGOT);
+        simpleItem(ModItems.KYLE_SWORD);
         simpleItem(ModItems.WIBKITIUM_INGOT);
+        simpleItem(ModItems.WIBKITIUM_SWORD);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
