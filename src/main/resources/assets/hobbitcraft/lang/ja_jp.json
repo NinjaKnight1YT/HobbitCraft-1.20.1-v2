@@ -1,0 +1,75 @@
+{
+  "item.hobbitcraft.dreaded_disc": "音楽ディスク ー 恐ろしい",
+  "item.hobbitcraft.dreaded_disc.desc": "リンキンパーク ー 燃やしてしまえ",
+  "item.hobbitcraft.raw_dread": "生の恐怖",
+  "item.hobbitcraft.dreaded_ingot": "恐ろしいのインゴット",
+  "item.hobbitcraft.dreaded_sword": "恐ろしいの剣",
+  "item.hobbitcraft.dreaded_axe": "恐ろしいの斧",
+  "item.hobbitcraft.dreaded_pickaxe": "恐ろしいのつるはし",
+  "item.hobbitcraft.dreaded_shovel": "恐ろしいのシャベル",
+  "item.hobbitcraft.dreaded_hoe": "恐ろしいの鍬",
+  "item.hobbitcraft.dreaded_helmet": "恐ろしいのヘルメット",
+  "item.hobbitcraft.dreaded_chestplate": "恐ろしいの胸当て",
+  "item.hobbitcraft.dreaded_trousers": "恐ろしいのズボン",
+  "item.hobbitcraft.dreaded_boots": "恐ろしいのブーツ",
+
+
+  "item.hobbitcraft.kyle_disc": "音楽ディスク ー カイル",
+  "item.hobbitcraft.kyle_disc.desc": "スターセット ー 共生的",
+  "item.hobbitcraft.raw_kyle": "生のカイル",
+  "item.hobbitcraft.kyle_ingot": "カイルのインゴット",
+  "item.hobbitcraft.kyle_sword": "カイルの剣",
+  "item.hobbitcraft.kyle_axe": "カイルの斧",
+  "item.hobbitcraft.kyle_pickaxe": "カイルのつるはし",
+  "item.hobbitcraft.kyle_shovel": "カイルのシャベル",
+  "item.hobbitcraft.kyle_hoe": "カイルの鍬",
+  "item.hobbitcraft.kyle_helmet": "カイルのヘルメット",
+  "item.hobbitcraft.kyle_chestplate": "カイルの胸当て",
+  "item.hobbitcraft.kyle_trousers": "カイルのズボン",
+  "item.hobbitcraft.kyle_boots": "カイルのブーツ",
+
+
+  "item.hobbitcraft.wibkitium_disc": "音楽ディスク ー ウィブキティウム",
+  "item.hobbitcraft.wibkitium_disc.desc": "UNKNOWN　ー　UNKNOWN",
+  "item.hobbitcraft.raw_wibkitium": "生のウィブキティウム",
+  "item.hobbitcraft.wibkitium_ingot": "ウィブキティウムのインゴット",
+  "item.hobbitcraft.wibkitium_sword": "ウィブキティウムの剣",
+  "item.hobbitcraft.wibkitium_axe": "ウィブキティウムの斧",
+  "item.hobbitcraft.wibkitium_pickaxe": "ウィブキティウムのつるはし",
+  "item.hobbitcraft.wibkitium_shovel": "ウィブキティウムのシャベル",
+  "item.hobbitcraft.wibkitium_hoe": "ウィブキティウムの鍬",
+  "item.hobbitcraft.wibkitium_helmet": "ウィブキティウムのヘルメット",
+  "item.hobbitcraft.wibkitium_chestplate": "ウィブキティウムの胸当て",
+  "item.hobbitcraft.wibkitium_trousers": "ウィブキティウムのズボン",
+  "item.hobbitcraft.wibkitium_boots": "ウィブキティウムのブーツ",
+
+
+
+
+  "block.hobbitcraft.block_of_raw_dread": "生の恐怖のブロック",
+  "block.hobbitcraft.dreaded_block": "恐ろしいのブロック",
+  "block.hobbitcraft.dreaded_ore": "恐ろしいの鉱石",
+  "block.hobbitcraft.dreaded_deepslate_ore": "ディープスレート恐ろしいの鉱石",
+  "block.hobbitcraft.dreaded_nether_ore": "ネザー恐ろしいの鉱石",
+  "block.hobbitcraft.dreaded_end_ore": "エンド恐ろしいの鉱石",
+
+
+  "block.hobbitcraft.block_of_raw_kyle": "生のカイルのブロック",
+  "block.hobbitcraft.kyle_block": "カイルのブロック",
+  "block.hobbitcraft.kyle_ore": "カイル鉱石",
+  "block.hobbitcraft.kyle_deepslate_ore": "ディープスレートカイル鉱石",
+  "block.hobbitcraft.kyle_nether_ore": "ネザーカイル鉱石",
+  "block.hobbitcraft.kyle_end_ore": "エンドのカイル鉱石",
+
+
+  "block.hobbitcraft.block_of_raw_wibkitium": "生のウィブキティウムのブロック",
+  "block.hobbitcraft.wibkitium_block": "ウィブキティウムのブロック",
+  "block.hobbitcraft.wibkitium_ore": "ウィブキティウム鉱石",
+  "block.hobbitcraft.wibkitium_deepslate_ore": "ティープスレートウィブキティウム鉱石",
+  "block.hobbitcraft.wibkitium_nether_ore": "ネザーウィブキティウム鉱石",
+  "block.hobbitcraft.wibkitium_end_ore": "エンドのウィブキティウム鉱石",
+
+  "block.hobbitcraft.metro": "地下鉄サイン",
+
+  "creativetab.hobbitcraft": "ホビットクラフト"
+}

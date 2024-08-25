@@ -20,15 +20,75 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.KYLE_BLOCK.get()))
                     .title(Component.translatable("creativetab.hobbitcraft"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.DREADED_INGOT.get());
+                        
+                        // DREADED
+                        
+                        // BLOCKS
+                        
+                        output.accept(ModBlocks.DREADED_ORE.get());
+                        output.accept(ModBlocks.DREADED_DEEPSLATE_ORE.get());
+                        output.accept(ModBlocks.DREADED_NETHER_ORE.get());
+                        output.accept(ModBlocks.DREADED_END_ORE.get());
+                        output.accept(ModBlocks.RAW_DREAD_BLOCK.get());
                         output.accept(ModBlocks.DREADED_BLOCK.get());
+                        
+                        //ITEMS
+                        
+                        output.accept(ModItems.RAW_DREAD.get());
+                        output.accept(ModItems.DREADED_INGOT.get());
                         output.accept(ModItems.DREADED_SWORD.get());
-                        output.accept(ModItems.KYLE_INGOT.get());
+                        output.accept(ModItems.DREADED_AXE.get());
+                        output.accept(ModItems.DREADED_PICKAXE.get());
+                        output.accept(ModItems.DREADED_SHOVEL.get());
+                        output.accept(ModItems.DREADED_HOE.get());
+
+                        // KYLE
+
+                        // BLOCKS
+
+                        output.accept(ModBlocks.KYLE_ORE.get());
+                        output.accept(ModBlocks.KYLE_DEEPSLATE_ORE.get());
+                        output.accept(ModBlocks.KYLE_NETHER_ORE.get());
+                        output.accept(ModBlocks.KYLE_END_ORE.get());
+                        output.accept(ModBlocks.RAW_KYLE_BLOCK.get());
                         output.accept(ModBlocks.KYLE_BLOCK.get());
+                        
+                        // ITEMS
+
+                        output.accept(ModItems.RAW_KYLE.get());
+                        output.accept(ModItems.KYLE_INGOT.get());
                         output.accept(ModItems.KYLE_SWORD.get());
-                        output.accept(ModItems.WIBKITIUM_INGOT.get());
+                        output.accept(ModItems.KYLE_AXE.get());
+                        output.accept(ModItems.KYLE_PICKAXE.get());
+                        output.accept(ModItems.KYLE_SHOVEL.get());
+                        output.accept(ModItems.KYLE_HOE.get());
+
+                        // WIBKITIUM
+
+                        // BLOCKS
+
+                        output.accept(ModBlocks.WIBKITIUM_ORE.get());
+                        output.accept(ModBlocks.WIBKITIUM_DEEPSLATE_ORE.get());
+                        output.accept(ModBlocks.WIBKITIUM_NETHER_ORE.get());
+                        output.accept(ModBlocks.WIBKITIUM_END_ORE.get());
+                        output.accept(ModBlocks.RAW_WIBKITIUM_BLOCK.get());
                         output.accept(ModBlocks.WIBKITIUM_BLOCK.get());
+                        
+                        // ITEMS
+
+                        output.accept(ModItems.RAW_WIBKITIUM.get());
+                        output.accept(ModItems.WIBKITIUM_INGOT.get());
                         output.accept(ModItems.WIBKITIUM_SWORD.get());
+                        output.accept(ModItems.WIBKITIUM_AXE.get());
+                        output.accept(ModItems.WIBKITIUM_PICKAXE.get());
+                        output.accept(ModItems.WIBKITIUM_SHOVEL.get());
+                        output.accept(ModItems.WIBKITIUM_HOE.get());
+
+                        // MISCELLANEOUS
+
+                        // BLOCKS
+
+                        output.accept(ModBlocks.METRO.get());
                     })
                     .build());
 

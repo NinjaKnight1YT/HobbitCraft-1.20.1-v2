@@ -17,12 +17,36 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+
+        // DREADED ITEMS
+
+        simpleItem(ModItems.RAW_DREAD);
         simpleItem(ModItems.DREADED_INGOT);
         simpleItem(ModItems.DREADED_SWORD);
+        simpleItem(ModItems.DREADED_AXE);
+        simpleItem(ModItems.DREADED_PICKAXE);
+        simpleItem(ModItems.DREADED_SHOVEL);
+        simpleItem(ModItems.DREADED_HOE);
+
+        // KYLE ITEMS
+
+        simpleItem(ModItems.RAW_KYLE);
         simpleItem(ModItems.KYLE_INGOT);
         simpleItem(ModItems.KYLE_SWORD);
+        simpleItem(ModItems.KYLE_AXE);
+        simpleItem(ModItems.KYLE_PICKAXE);
+        simpleItem(ModItems.KYLE_SHOVEL);
+        simpleItem(ModItems.KYLE_HOE);
+
+        // WIBKITIUM ITEMS
+
+        simpleItem(ModItems.RAW_WIBKITIUM);
         simpleItem(ModItems.WIBKITIUM_INGOT);
         simpleItem(ModItems.WIBKITIUM_SWORD);
+        simpleItem(ModItems.WIBKITIUM_AXE);
+        simpleItem(ModItems.WIBKITIUM_PICKAXE);
+        simpleItem(ModItems.WIBKITIUM_SHOVEL);
+        simpleItem(ModItems.WIBKITIUM_HOE);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

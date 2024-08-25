@@ -15,9 +15,38 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+
+        // DREADED BLOCKS
+
+        this.dropSelf(ModBlocks.RAW_DREAD_BLOCK.get());
         this.dropSelf(ModBlocks.DREADED_BLOCK.get());
+        this.dropSelf(ModBlocks.DREADED_ORE.get());
+        this.dropSelf(ModBlocks.DREADED_DEEPSLATE_ORE.get());
+        this.dropSelf(ModBlocks.DREADED_NETHER_ORE.get());
+        this.dropSelf(ModBlocks.DREADED_END_ORE.get());
+
+        // KYLE BLOCKS
+
+        this.dropSelf(ModBlocks.RAW_KYLE_BLOCK.get());
         this.dropSelf(ModBlocks.KYLE_BLOCK.get());
+        this.dropSelf(ModBlocks.KYLE_ORE.get());
+        this.dropSelf(ModBlocks.KYLE_DEEPSLATE_ORE.get());
+        this.dropSelf(ModBlocks.KYLE_NETHER_ORE.get());
+        this.dropSelf(ModBlocks.KYLE_END_ORE.get());
+
+        // WIBKITIUM BLOCKS
+
+        this.dropSelf(ModBlocks.RAW_WIBKITIUM_BLOCK.get());
         this.dropSelf(ModBlocks.WIBKITIUM_BLOCK.get());
+        this.dropSelf(ModBlocks.WIBKITIUM_ORE.get());
+        this.dropSelf(ModBlocks.WIBKITIUM_DEEPSLATE_ORE.get());
+        this.dropSelf(ModBlocks.WIBKITIUM_NETHER_ORE.get());
+        this.dropSelf(ModBlocks.WIBKITIUM_END_ORE.get());
+
+        // MISCELLANEOUS BLOCKS
+
+        this.dropSelf(ModBlocks.METRO.get());
+
     }
 
     @Override
