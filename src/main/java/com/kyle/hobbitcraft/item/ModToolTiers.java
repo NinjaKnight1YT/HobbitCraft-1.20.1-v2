@@ -13,15 +13,15 @@ import java.util.List;
 
 public class ModToolTiers {
     public static final Tier DREADED = TierSortingRegistry.registerTier(
-            new ForgeTier(5, 1500, -2, 4, 25, ModTags.Blocks.NEEDS_DREADED_TOOL,
+            new ForgeTier(5, 1500, 4, 4, 25, ModTags.Blocks.NEEDS_DREADED_TOOL,
                     () -> Ingredient.of(ModItems.DREADED_INGOT.get())),
             new ResourceLocation(HobbitCraft.MOD_ID, "dreaded"), List.of(Tiers.NETHERITE), List.of());
     public static final Tier KYLE = TierSortingRegistry.registerTier(
-            new ForgeTier(5, 1500, -2, 4, 25, ModTags.Blocks.NEEDS_KYLE_TOOL,
+            new ForgeTier(5, 1500, 4, 4, 25, ModTags.Blocks.NEEDS_KYLE_TOOL,
                     () -> Ingredient.of(ModItems.KYLE_INGOT.get())),
             new ResourceLocation(HobbitCraft.MOD_ID, "kyle"), List.of(Tiers.NETHERITE), List.of());
     public static final Tier WIBKITIUM = TierSortingRegistry.registerTier(
-            new ForgeTier(5, 1500, -2, 4, 25, ModTags.Blocks.NEEDS_WIBKITIUM_TOOL,
+            new ForgeTier(5, 1500, 4, 4, 25, ModTags.Blocks.NEEDS_WIBKITIUM_TOOL,
                     () -> Ingredient.of(ModItems.WIBKITIUM_INGOT.get())),
             new ResourceLocation(HobbitCraft.MOD_ID, "wibkitium"), List.of(Tiers.NETHERITE), List.of());
 }

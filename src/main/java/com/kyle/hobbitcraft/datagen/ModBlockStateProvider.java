@@ -44,13 +44,27 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.WIBKITIUM_END_ORE);
 
         // MISCELLANEOUS BLOCKS
-
-        blockWithItem(ModBlocks.METRO);
-
+        
+        sidedBlock(ModBlocks.METRO);
+        
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
     }
+
+    private void sidedBlock(RegistryObject<Block> blockRegistryObject) {
+        String blockName = blockRegistryObject.getId().getPath();
+        simpleBlockWithItem(blockRegistryObject.get(), models().cube(
+                blockName,
+                modLoc("block/" + blockName + "_bottom"),   // Bottom texture
+                modLoc("block/" + blockName + "_top"),      // Top texture
+                modLoc("block/" + blockName + "_north"),    // North side texture
+                modLoc("block/" + blockName + "_south"),    // South side texture
+                modLoc("block/" + blockName + "_west"),     // West side texture
+                modLoc("block/" + blockName + "_east")      // East side texture
+        ));
+    }
+
 
 }
