@@ -22,7 +22,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         // DREADED ITEMS
 
         simpleItem(ModItems.RAW_DREAD);
+        simpleItem(ModItems.CRUSHED_RAW_DREAD);
         simpleItem(ModItems.DREADED_INGOT);
+        simpleItem(ModItems.DREADED_NUGGET);
         handheldItem(ModItems.DREADED_SWORD);
         handheldItem(ModItems.DREADED_AXE);
         handheldItem(ModItems.DREADED_PICKAXE);
@@ -32,7 +34,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         // KYLE ITEMS
 
         simpleItem(ModItems.RAW_KYLE);
+        simpleItem(ModItems.CRUSHED_RAW_KYLE);
         simpleItem(ModItems.KYLE_INGOT);
+        simpleItem(ModItems.KYLE_NUGGET);
         handheldItem(ModItems.KYLE_SWORD);
         handheldItem(ModItems.KYLE_AXE);
         handheldItem(ModItems.KYLE_PICKAXE);
@@ -42,7 +46,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         // WIBKITIUM ITEMS
 
         simpleItem(ModItems.RAW_WIBKITIUM);
+        simpleItem(ModItems.CRUSHED_RAW_WIBKITIUM);
         simpleItem(ModItems.WIBKITIUM_INGOT);
+        simpleItem(ModItems.WIBKITIUM_NUGGET);
         handheldItem(ModItems.WIBKITIUM_SWORD);
         handheldItem(ModItems.WIBKITIUM_AXE);
         handheldItem(ModItems.WIBKITIUM_PICKAXE);

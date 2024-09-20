@@ -1,8 +1,13 @@
 {
+
+  "_comment": "DREADED ITEMS",
+
   "item.hobbitcraft.dreaded_disc": "Music Disc - Dreaded",
   "item.hobbitcraft.dreaded_disc.desc": "Linkin Park - Burn It Down",
   "item.hobbitcraft.raw_dread": "Raw Dread",
+  "item.hobbitcraft.crushed_raw_dread": "Crushed Raw Dread",
   "item.hobbitcraft.dreaded_ingot": "Dreaded Ingot",
+  "item.hobbitcraft.dreaded_nugget": "Dreaded Nugget",
   "item.hobbitcraft.dreaded_sword": "Dreaded Sword",
   "item.hobbitcraft.dreaded_axe": "Dreaded Axe",
   "item.hobbitcraft.dreaded_pickaxe": "Dreaded Pickaxe",
@@ -13,11 +18,14 @@
   "item.hobbitcraft.dreaded_trousers": "Dreaded Trousers",
   "item.hobbitcraft.dreaded_boots": "Dreaded Boots",
 
+  "_comment2": "KYLE ITEMS",
 
   "item.hobbitcraft.kyle_disc": "Music Disc - Kyle",
-  "item.hobbitcraft.kyle_disc.desc": "STARSET - SYMBIOTIC",
+  "item.hobbitcraft.kyle_disc.desc": "STARSET - Frequency",
   "item.hobbitcraft.raw_kyle": "Raw Kyle",
+  "item.hobbitcraft.crushed_raw_kyle": "Crushed Raw Kyle",
   "item.hobbitcraft.kyle_ingot": "Kyle Ingot",
+  "item.hobbitcraft.kyle_nugget": "Kyle Nugget",
   "item.hobbitcraft.kyle_sword": "Kyle Sword",
   "item.hobbitcraft.kyle_axe": "Kyle Axe",
   "item.hobbitcraft.kyle_pickaxe": "Kyle Pickaxe",
@@ -28,11 +36,14 @@
   "item.hobbitcraft.kyle_trousers": "Kyle Trousers",
   "item.hobbitcraft.kyle_boots": "Kyle Boots",
 
+  "_comment3": "WIBKITIUM ITEMS",
 
   "item.hobbitcraft.wibkitium_disc": "Music Disc - Wibkitium",
   "item.hobbitcraft.wibkitium_disc.desc": "UNKNOWN",
   "item.hobbitcraft.raw_wibkitium": "Raw Wibkitium",
+  "item.hobbitcraft.crushed_raw_wibkitium": "Crushed Raw Wibkitium",
   "item.hobbitcraft.wibkitium_ingot": "Wibkitium Ingot",
+  "item.hobbitcraft.wibkitium_nugget": "Wibkitium Nugget",
   "item.hobbitcraft.wibkitium_sword": "Wibkitium Sword",
   "item.hobbitcraft.wibkitium_axe": "Wibkitium Axe",
   "item.hobbitcraft.wibkitium_pickaxe": "Wibkitium Pickaxe",
@@ -43,8 +54,7 @@
   "item.hobbitcraft.wibkitium_trousers": "Wibkitium Trousers",
   "item.hobbitcraft.wibkitium_boots": "Wibkitium Boots",
 
-
-
+  "_comment4": "DREADED BLOCKS",
 
   "block.hobbitcraft.block_of_raw_dread": "Block of Raw Dread",
   "block.hobbitcraft.dreaded_block": "Dreaded Block",
@@ -53,6 +63,7 @@
   "block.hobbitcraft.dreaded_nether_ore": "Nether Dreaded Ore",
   "block.hobbitcraft.dreaded_end_ore": "End Dreaded Ore",
 
+  "_comment5": "KYLE BLOCKS",
 
   "block.hobbitcraft.block_of_raw_kyle": "Block of Raw Kyle",
   "block.hobbitcraft.kyle_block": "Kyle Block",
@@ -61,6 +72,7 @@
   "block.hobbitcraft.kyle_nether_ore": "Nether Kyle Ore",
   "block.hobbitcraft.kyle_end_ore": "End Kyle Ore",
 
+  "_comment6": "WIBKITIUM BLOCKS",
 
   "block.hobbitcraft.block_of_raw_wibkitium": "Block of Raw Wibkitium",
   "block.hobbitcraft.wibkitium_block": "Wibkitium Block",
@@ -68,6 +80,8 @@
   "block.hobbitcraft.wibkitium_deepslate_ore": "Deepslate Wibkitium Ore",
   "block.hobbitcraft.wibkitium_nether_ore": "Nether Wibkitium Ore",
   "block.hobbitcraft.wibkitium_end_ore": "End Wibkitium Ore",
+
+  "_comment7": "MISCELLANEOUS",
 
   "block.hobbitcraft.metro": "Metro Sign",
 

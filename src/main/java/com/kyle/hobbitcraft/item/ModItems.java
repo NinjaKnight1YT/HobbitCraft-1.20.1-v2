@@ -18,7 +18,11 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_DREAD = ITEMS.register("raw_dread",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CRUSHED_RAW_DREAD = ITEMS.register("crushed_raw_dread",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> DREADED_INGOT = ITEMS.register("dreaded_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DREADED_NUGGET = ITEMS.register("dreaded_nugget",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> DREADED_SWORD = ITEMS.register("dreaded_sword",
             () -> new SwordItem(ModToolTiers.DREADED, 4, 2, new Item.Properties()));
@@ -37,7 +41,11 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_KYLE = ITEMS.register("raw_kyle",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CRUSHED_RAW_KYLE = ITEMS.register("crushed_raw_kyle",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> KYLE_INGOT = ITEMS.register("kyle_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> KYLE_NUGGET = ITEMS.register("kyle_nugget",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> KYLE_SWORD = ITEMS.register("kyle_sword",
             () -> new SwordItem(ModToolTiers.KYLE, 4, 2, new Item.Properties()));
@@ -56,7 +64,11 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_WIBKITIUM = ITEMS.register("raw_wibkitium",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CRUSHED_RAW_WIBKITIUM = ITEMS.register("crushed_raw_wibkitium",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WIBKITIUM_INGOT = ITEMS.register("wibkitium_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WIBKITIUM_NUGGET = ITEMS.register("wibkitium_nugget",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WIBKITIUM_SWORD = ITEMS.register("wibkitium_sword",
             () -> new SwordItem(ModToolTiers.WIBKITIUM, 4, 2, new Item.Properties()));

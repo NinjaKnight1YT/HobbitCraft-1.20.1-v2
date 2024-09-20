@@ -35,7 +35,9 @@ public class ModCreativeModeTabs {
                         //ITEMS
                         
                         output.accept(ModItems.RAW_DREAD.get());
+                        output.accept(ModItems.CRUSHED_RAW_DREAD.get());
                         output.accept(ModItems.DREADED_INGOT.get());
+                        output.accept(ModItems.DREADED_NUGGET.get());
                         output.accept(ModItems.DREADED_SWORD.get());
                         output.accept(ModItems.DREADED_AXE.get());
                         output.accept(ModItems.DREADED_PICKAXE.get());
@@ -56,7 +58,9 @@ public class ModCreativeModeTabs {
                         // ITEMS
 
                         output.accept(ModItems.RAW_KYLE.get());
+                        output.accept(ModItems.CRUSHED_RAW_KYLE.get());
                         output.accept(ModItems.KYLE_INGOT.get());
+                        output.accept(ModItems.KYLE_NUGGET.get());
                         output.accept(ModItems.KYLE_SWORD.get());
                         output.accept(ModItems.KYLE_AXE.get());
                         output.accept(ModItems.KYLE_PICKAXE.get());
@@ -77,7 +81,9 @@ public class ModCreativeModeTabs {
                         // ITEMS
 
                         output.accept(ModItems.RAW_WIBKITIUM.get());
+                        output.accept(ModItems.CRUSHED_RAW_WIBKITIUM.get());
                         output.accept(ModItems.WIBKITIUM_INGOT.get());
+                        output.accept(ModItems.WIBKITIUM_NUGGET.get());
                         output.accept(ModItems.WIBKITIUM_SWORD.get());
                         output.accept(ModItems.WIBKITIUM_AXE.get());
                         output.accept(ModItems.WIBKITIUM_PICKAXE.get());
