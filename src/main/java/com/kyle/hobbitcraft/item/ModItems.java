@@ -59,6 +59,19 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.KYLE, 4, 2, new Item.Properties()));
 
 
+    // VINO ITEMS
+
+
+    public static final RegistryObject<Item> RAW_VINO = ITEMS.register("raw_vino",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CRUSHED_RAW_VINO = ITEMS.register("crushed_raw_vino",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> VINO_INGOT = ITEMS.register("vino_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> VINO_NUGGET = ITEMS.register("vino_nugget",
+            () -> new Item(new Item.Properties()));
+
+
     // WIBKITIUM ITEMS
 
 
