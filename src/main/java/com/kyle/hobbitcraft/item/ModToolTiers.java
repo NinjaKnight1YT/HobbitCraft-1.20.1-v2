@@ -20,6 +20,10 @@ public class ModToolTiers {
             new ForgeTier(5, 1500, 4, 4, 25, ModTags.Blocks.NEEDS_KYLE_TOOL,
                     () -> Ingredient.of(ModItems.KYLE_INGOT.get())),
             new ResourceLocation(HobbitCraft.MOD_ID, "kyle"), List.of(Tiers.NETHERITE), List.of());
+    public static final Tier VINO = TierSortingRegistry.registerTier(
+            new ForgeTier(5, 1500, 4, 4, 25, ModTags.Blocks.NEEDS_VINO_TOOL,
+                    () -> Ingredient.of(ModItems.VINO_INGOT.get())),
+            new ResourceLocation(HobbitCraft.MOD_ID, "vino"), List.of(Tiers.NETHERITE), List.of());
     public static final Tier WIBKITIUM = TierSortingRegistry.registerTier(
             new ForgeTier(5, 1500, 4, 4, 25, ModTags.Blocks.NEEDS_WIBKITIUM_TOOL,
                     () -> Ingredient.of(ModItems.WIBKITIUM_INGOT.get())),

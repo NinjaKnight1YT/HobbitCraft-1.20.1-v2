@@ -70,6 +70,16 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> VINO_NUGGET = ITEMS.register("vino_nugget",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> VINO_SWORD = ITEMS.register("vino_sword",
+            () -> new SwordItem(ModToolTiers.VINO, 4, 2, new Item.Properties()));
+    public static final RegistryObject<Item> VINO_AXE = ITEMS.register("vino_axe",
+            () -> new AxeItem(ModToolTiers.VINO, 4, 2, new Item.Properties()));
+    public static final RegistryObject<Item> VINO_PICKAXE = ITEMS.register("vino_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.VINO, 4, 2, new Item.Properties()));
+    public static final RegistryObject<Item> VINO_SHOVEL = ITEMS.register("vino_shovel",
+            () -> new ShovelItem(ModToolTiers.VINO, 4, 2, new Item.Properties()));
+    public static final RegistryObject<Item> VINO_HOE = ITEMS.register("vino_hoe",
+            () -> new HoeItem(ModToolTiers.VINO, 4, 2, new Item.Properties()));
 
 
     // WIBKITIUM ITEMS
