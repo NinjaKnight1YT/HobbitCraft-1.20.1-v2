@@ -53,6 +53,23 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.END_STONE)));
 
 
+    // VINO BLOCKS
+
+
+    public static final RegistryObject<Block> RAW_VINO_BLOCK = registerBlock("block_of_raw_vino",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
+    public static final RegistryObject<Block> VINO_BLOCK = registerBlock("vino_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> VINO_ORE = registerBlock("vino_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
+    public static final RegistryObject<Block> VINO_DEEPSLATE_ORE = registerBlock("vino_deepslate_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE)));
+    public static final RegistryObject<Block> VINO_NETHER_ORE = registerBlock("vino_nether_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)));
+    public static final RegistryObject<Block> VINO_END_ORE = registerBlock("vino_end_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.END_STONE)));
+
+
     // WIBKITIUM BLOCKS
 
 

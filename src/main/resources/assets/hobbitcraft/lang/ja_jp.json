@@ -3,7 +3,7 @@
   "_comment": "DREADED ITEMS",
 
   "item.hobbitcraft.dreaded_disc": "音楽ディスク ー 恐ろしい",
-  "item.hobbitcraft.dreaded_disc.desc": "リンキンパーク ー 燃やしてしまえ",
+  "item.hobbitcraft.dreaded_disc.desc": "リンキンパーク ー 「燃やしてしまえ」",
   "item.hobbitcraft.raw_dread": "生の恐怖",
   "item.hobbitcraft.crushed_raw_dread": "砕いた生の恐怖",
   "item.hobbitcraft.dreaded_ingot": "恐ろしいのインゴット",
@@ -21,9 +21,9 @@
   "_comment2": "KYLE ITEMS",
 
   "item.hobbitcraft.kyle_disc": "音楽ディスク ー カイル",
-  "item.hobbitcraft.kyle_disc.desc": "スターセット ー 頻度",
+  "item.hobbitcraft.kyle_disc.desc": "スターセット ー 「頻度」",
   "item.hobbitcraft.raw_kyle": "生のカイル",
-  "item.hobbitcraft.crushed_raw_kyle": "砕いた生カイル",
+  "item.hobbitcraft.crushed_raw_kyle": "砕いた生のカイル",
   "item.hobbitcraft.kyle_ingot": "カイルのインゴット",
   "item.hobbitcraft.kyle_nugget": "カイルのナゲット",
   "item.hobbitcraft.kyle_sword": "カイルの剣",
@@ -36,7 +36,25 @@
   "item.hobbitcraft.kyle_trousers": "カイルのズボン",
   "item.hobbitcraft.kyle_boots": "カイルのブーツ",
 
-  "_comment3": "WIBKITIUM ITEMS",
+  "_comment3": "VINO ITEMS",
+
+  "item.hobbitcraft.vino_disc": "音楽ディスク ー ワイン",
+  "item.hobbitcraft.vino_disc.desc": "「ひとつとや」",
+  "item.hobbitcraft.raw_vino": "生のワイン",
+  "item.hobbitcraft.crushed_raw_vino": "砕いた生のワイン",
+  "item.hobbitcraft.vino_ingot": "ワインのインゴット",
+  "item.hobbitcraft.vino_nugget": "ワインのナゲット",
+  "item.hobbitcraft.vino_sword": "ワインの剣",
+  "item.hobbitcraft.vino_axe": "ワインの斧",
+  "item.hobbitcraft.vino_pickaxe": "ワインのつるはし",
+  "item.hobbitcraft.vino_shovel": "ワインのシャベル",
+  "item.hobbitcraft.vino_hoe": "ワインの鍬",
+  "item.hobbitcraft.vino_helmet": "ワインのヘルメット",
+  "item.hobbitcraft.vino_chestplate": "ワインの胸当て",
+  "item.hobbitcraft.vino_trousers": "ワインのズボン",
+  "item.hobbitcraft.vino_boots": "ワインのブーツ",
+
+  "_comment4": "WIBKITIUM ITEMS",
 
   "item.hobbitcraft.wibkitium_disc": "音楽ディスク ー ウィブキティウム",
   "item.hobbitcraft.wibkitium_disc.desc": "UNKNOWN　ー　UNKNOWN",
@@ -54,7 +72,7 @@
   "item.hobbitcraft.wibkitium_trousers": "ウィブキティウムのズボン",
   "item.hobbitcraft.wibkitium_boots": "ウィブキティウムのブーツ",
 
-  "_comment4": "DREADED BLOCKS",
+  "_comment5": "DREADED BLOCKS",
 
   "block.hobbitcraft.block_of_raw_dread": "生の恐怖のブロック",
   "block.hobbitcraft.dreaded_block": "恐ろしいのブロック",
@@ -63,7 +81,7 @@
   "block.hobbitcraft.dreaded_nether_ore": "ネザー恐ろしいの鉱石",
   "block.hobbitcraft.dreaded_end_ore": "エンド恐ろしいの鉱石",
 
-  "_comment5": "KYLE BLOCKS",
+  "_comment6": "KYLE BLOCKS",
 
   "block.hobbitcraft.block_of_raw_kyle": "生のカイルのブロック",
   "block.hobbitcraft.kyle_block": "カイルのブロック",
@@ -72,7 +90,16 @@
   "block.hobbitcraft.kyle_nether_ore": "ネザーカイル鉱石",
   "block.hobbitcraft.kyle_end_ore": "エンドのカイル鉱石",
 
-  "_comment6": "WIBKITIUM BLOCKS",
+  "_comment7": "VINO BLOCKS",
+
+  "block.hobbitcraft.block_of_raw_vino": "生のワインのブロック",
+  "block.hobbitcraft.vino_block": "ワインのブロック",
+  "block.hobbitcraft.vino_ore": "ワイン鉱石",
+  "block.hobbitcraft.vino_deepslate_ore": "ディープスレートワイン鉱石",
+  "block.hobbitcraft.vino_nether_ore": "ネザーワイン鉱石",
+  "block.hobbitcraft.vino_end_ore": "エンドのワイン鉱石",
+
+  "_comment8": "WIBKITIUM BLOCKS",
 
   "block.hobbitcraft.block_of_raw_wibkitium": "生のウィブキティウムのブロック",
   "block.hobbitcraft.wibkitium_block": "ウィブキティウムのブロック",
@@ -81,7 +108,7 @@
   "block.hobbitcraft.wibkitium_nether_ore": "ネザーウィブキティウム鉱石",
   "block.hobbitcraft.wibkitium_end_ore": "エンドのウィブキティウム鉱石",
 
-  "_comment7": "MISCELLANEOUS",
+  "_comment9": "MISCELLANEOUS",
 
   "block.hobbitcraft.metro": "地下鉄サイン",
 

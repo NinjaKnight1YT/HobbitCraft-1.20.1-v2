@@ -67,6 +67,29 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.KYLE_SHOVEL.get());
                         output.accept(ModItems.KYLE_HOE.get());
 
+                        // VINO
+
+                        // BLOCKS
+
+                        output.accept(ModBlocks.VINO_ORE.get());
+                        output.accept(ModBlocks.VINO_DEEPSLATE_ORE.get());
+                        output.accept(ModBlocks.VINO_NETHER_ORE.get());
+                        output.accept(ModBlocks.VINO_END_ORE.get());
+                        output.accept(ModBlocks.RAW_VINO_BLOCK.get());
+                        output.accept(ModBlocks.VINO_BLOCK.get());
+
+                        // ITEMS
+
+                        output.accept(ModItems.RAW_VINO.get());
+                        output.accept(ModItems.CRUSHED_RAW_VINO.get());
+                        output.accept(ModItems.VINO_INGOT.get());
+                        output.accept(ModItems.VINO_NUGGET.get());
+                        output.accept(ModItems.VINO_SWORD.get());
+                        output.accept(ModItems.VINO_AXE.get());
+                        output.accept(ModItems.VINO_PICKAXE.get());
+                        output.accept(ModItems.VINO_SHOVEL.get());
+                        output.accept(ModItems.VINO_HOE.get());
+
                         // WIBKITIUM
 
                         // BLOCKS

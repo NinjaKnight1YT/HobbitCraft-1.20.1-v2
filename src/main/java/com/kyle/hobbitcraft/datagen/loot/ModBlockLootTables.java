@@ -34,6 +34,15 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.KYLE_NETHER_ORE.get());
         this.dropSelf(ModBlocks.KYLE_END_ORE.get());
 
+        // VINO BLOCKS
+
+        this.dropSelf(ModBlocks.RAW_VINO_BLOCK.get());
+        this.dropSelf(ModBlocks.VINO_BLOCK.get());
+        this.dropSelf(ModBlocks.VINO_ORE.get());
+        this.dropSelf(ModBlocks.VINO_DEEPSLATE_ORE.get());
+        this.dropSelf(ModBlocks.VINO_NETHER_ORE.get());
+        this.dropSelf(ModBlocks.VINO_END_ORE.get());
+
         // WIBKITIUM BLOCKS
 
         this.dropSelf(ModBlocks.RAW_WIBKITIUM_BLOCK.get());

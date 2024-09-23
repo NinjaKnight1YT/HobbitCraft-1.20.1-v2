@@ -36,7 +36,25 @@
   "item.hobbitcraft.kyle_trousers": "Kyle Trousers",
   "item.hobbitcraft.kyle_boots": "Kyle Boots",
 
-  "_comment3": "WIBKITIUM ITEMS",
+  "_comment3": "VINO ITEMS",
+
+  "item.hobbitcraft.vino_disc": "Music Disc - Vino",
+  "item.hobbitcraft.vino_disc.desc": "Hitotsu Toya",
+  "item.hobbitcraft.raw_vino": "Raw Vino",
+  "item.hobbitcraft.crushed_raw_vino": "Crushed Raw Vino",
+  "item.hobbitcraft.vino_ingot": "Vino Ingot",
+  "item.hobbitcraft.vino_nugget": "Vino Nugget",
+  "item.hobbitcraft.vino_sword": "Vino Sword",
+  "item.hobbitcraft.vino_axe": "Vino Axe",
+  "item.hobbitcraft.vino_pickaxe": "Vino Pickaxe",
+  "item.hobbitcraft.vino_shovel": "Vino Shovel",
+  "item.hobbitcraft.vino_hoe": "Vino Hoe",
+  "item.hobbitcraft.vino_helmet": "Vino Helmet",
+  "item.hobbitcraft.vino_chestplate": "Vino Chestplate",
+  "item.hobbitcraft.vino_trousers": "Vino Trousers",
+  "item.hobbitcraft.vino_boots": "Vino Boots",
+
+  "_comment4": "WIBKITIUM ITEMS",
 
   "item.hobbitcraft.wibkitium_disc": "Music Disc - Wibkitium",
   "item.hobbitcraft.wibkitium_disc.desc": "UNKNOWN",
@@ -54,7 +72,7 @@
   "item.hobbitcraft.wibkitium_trousers": "Wibkitium Trousers",
   "item.hobbitcraft.wibkitium_boots": "Wibkitium Boots",
 
-  "_comment4": "DREADED BLOCKS",
+  "_comment5": "DREADED BLOCKS",
 
   "block.hobbitcraft.block_of_raw_dread": "Block of Raw Dread",
   "block.hobbitcraft.dreaded_block": "Dreaded Block",
@@ -63,7 +81,7 @@
   "block.hobbitcraft.dreaded_nether_ore": "Nether Dreaded Ore",
   "block.hobbitcraft.dreaded_end_ore": "End Dreaded Ore",
 
-  "_comment5": "KYLE BLOCKS",
+  "_comment6": "KYLE BLOCKS",
 
   "block.hobbitcraft.block_of_raw_kyle": "Block of Raw Kyle",
   "block.hobbitcraft.kyle_block": "Kyle Block",
@@ -72,7 +90,16 @@
   "block.hobbitcraft.kyle_nether_ore": "Nether Kyle Ore",
   "block.hobbitcraft.kyle_end_ore": "End Kyle Ore",
 
-  "_comment6": "WIBKITIUM BLOCKS",
+  "_comment7": "VINO BLOCKS",
+
+  "block.hobbitcraft.block_of_raw_vino": "Block of Raw Vino",
+  "block.hobbitcraft.vino_block": "Vino Block",
+  "block.hobbitcraft.vino_ore": "Vino Ore",
+  "block.hobbitcraft.vino_deepslate_ore": "Deepslate Vino Ore",
+  "block.hobbitcraft.vino_nether_ore": "Nether Vino Ore",
+  "block.hobbitcraft.vino_end_ore": "End Vino Ore",
+
+  "_comment8": "WIBKITIUM BLOCKS",
 
   "block.hobbitcraft.block_of_raw_wibkitium": "Block of Raw Wibkitium",
   "block.hobbitcraft.wibkitium_block": "Wibkitium Block",
@@ -81,7 +108,7 @@
   "block.hobbitcraft.wibkitium_nether_ore": "Nether Wibkitium Ore",
   "block.hobbitcraft.wibkitium_end_ore": "End Wibkitium Ore",
 
-  "_comment7": "MISCELLANEOUS",
+  "_comment9": "MISCELLANEOUS",
 
   "block.hobbitcraft.metro": "Metro Sign",
 

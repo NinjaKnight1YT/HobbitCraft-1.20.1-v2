@@ -43,6 +43,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.KYLE_SHOVEL);
         handheldItem(ModItems.KYLE_HOE);
 
+        // VINO ITEMS
+
+        simpleItem(ModItems.RAW_VINO);
+        simpleItem(ModItems.CRUSHED_RAW_VINO);
+        simpleItem(ModItems.VINO_INGOT);
+        simpleItem(ModItems.VINO_NUGGET);
+        handheldItem(ModItems.VINO_SWORD);
+        handheldItem(ModItems.VINO_AXE);
+        handheldItem(ModItems.VINO_PICKAXE);
+        handheldItem(ModItems.VINO_SHOVEL);
+        handheldItem(ModItems.VINO_HOE);
+
         // WIBKITIUM ITEMS
 
         simpleItem(ModItems.RAW_WIBKITIUM);

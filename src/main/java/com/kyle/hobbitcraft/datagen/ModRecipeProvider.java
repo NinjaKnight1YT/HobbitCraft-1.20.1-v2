@@ -58,6 +58,21 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.KYLE_BLOCK.get()), has(ModBlocks.KYLE_BLOCK.get()))
                 .save(pWriter);
 
+        // Vino ingot to block and vice versa
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.VINO_BLOCK.get())
+                .pattern("...")
+                .pattern("...")
+                .pattern("...")
+                .define('.', ModItems.VINO_INGOT.get())
+                .unlockedBy(getHasName(ModItems.VINO_INGOT.get()), has(ModItems.VINO_INGOT.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.VINO_INGOT.get(), 9)
+                .requires(ModBlocks.VINO_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.VINO_BLOCK.get()), has(ModBlocks.VINO_BLOCK.get()))
+                .save(pWriter);
+
         // Wibkitium ingot to block and vice versa
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WIBKITIUM_BLOCK.get())

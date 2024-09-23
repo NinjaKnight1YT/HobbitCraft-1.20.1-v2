@@ -34,6 +34,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.KYLE_NETHER_ORE);
         blockWithItem(ModBlocks.KYLE_END_ORE);
 
+        // VINO BLOCKS
+
+        blockWithItem(ModBlocks.RAW_VINO_BLOCK);
+        blockWithItem(ModBlocks.VINO_BLOCK);
+        blockWithItem(ModBlocks.VINO_ORE);
+        blockWithItem(ModBlocks.VINO_DEEPSLATE_ORE);
+        blockWithItem(ModBlocks.VINO_NETHER_ORE);
+        blockWithItem(ModBlocks.VINO_END_ORE);
+
         // WIBKITIUM BLOCKS
 
         blockWithItem(ModBlocks.RAW_WIBKITIUM_BLOCK);

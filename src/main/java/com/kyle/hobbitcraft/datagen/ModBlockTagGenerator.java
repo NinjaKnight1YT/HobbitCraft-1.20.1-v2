@@ -39,6 +39,13 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 ModBlocks.KYLE_NETHER_ORE.get(),
                 ModBlocks.KYLE_END_ORE.get(),
 
+                ModBlocks.RAW_VINO_BLOCK.get(),
+                ModBlocks.VINO_BLOCK.get(),
+                ModBlocks.VINO_ORE.get(),
+                ModBlocks.VINO_DEEPSLATE_ORE.get(),
+                ModBlocks.VINO_NETHER_ORE.get(),
+                ModBlocks.VINO_END_ORE.get(),
+
                 ModBlocks.RAW_WIBKITIUM_BLOCK.get(),
                 ModBlocks.WIBKITIUM_BLOCK.get(),
                 ModBlocks.WIBKITIUM_ORE.get(),
