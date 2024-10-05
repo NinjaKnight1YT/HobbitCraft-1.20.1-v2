@@ -12,6 +12,76 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, HobbitCraft.MOD_ID);
 
+    // STARS
+
+
+    // DREADED
+
+
+    public static final RegistryObject<Item> DREADED_STAR_EIN = ITEMS.register("dreaded_star_ein",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DREADED_STAR_ZWEI = ITEMS.register("dreaded_star_zwei",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DREADED_STAR_DREI = ITEMS.register("dreaded_star_drei",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DREADED_STAR_VIER = ITEMS.register("dreaded_star_vier",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DREADED_STAR_SPHERE = ITEMS.register("dreaded_star_sphere",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DREADED_STAR_OMEGA = ITEMS.register("dreaded_star_omega",
+            () -> new Item(new Item.Properties()));
+
+
+    // KYLE
+
+
+    public static final RegistryObject<Item> KYLE_STAR_EIN = ITEMS.register("kyle_star_ein",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> KYLE_STAR_ZWEI = ITEMS.register("kyle_star_zwei",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> KYLE_STAR_DREI = ITEMS.register("kyle_star_drei",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> KYLE_STAR_VIER = ITEMS.register("kyle_star_vier",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> KYLE_STAR_SPHERE = ITEMS.register("kyle_star_sphere",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> KYLE_STAR_OMEGA = ITEMS.register("kyle_star_omega",
+            () -> new Item(new Item.Properties()));
+
+
+    // VINO
+
+
+    public static final RegistryObject<Item> VINO_STAR_EIN = ITEMS.register("vino_star_ein",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> VINO_STAR_ZWEI = ITEMS.register("vino_star_zwei",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> VINO_STAR_DREI = ITEMS.register("vino_star_drei",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> VINO_STAR_VIER = ITEMS.register("vino_star_vier",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> VINO_STAR_SPHERE = ITEMS.register("vino_star_sphere",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> VINO_STAR_OMEGA = ITEMS.register("vino_star_omega",
+            () -> new Item(new Item.Properties()));
+
+
+    // WIBKITIUM
+
+
+    public static final RegistryObject<Item> WIBKITIUM_STAR_EIN = ITEMS.register("wibkitium_star_ein",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WIBKITIUM_STAR_ZWEI = ITEMS.register("wibkitium_star_zwei",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WIBKITIUM_STAR_DREI = ITEMS.register("wibkitium_star_drei",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WIBKITIUM_STAR_VIER = ITEMS.register("wibkitium_star_vier",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WIBKITIUM_STAR_SPHERE = ITEMS.register("wibkitium_star_sphere",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WIBKITIUM_STAR_OMEGA = ITEMS.register("wibkitium_star_omega",
+            () -> new Item(new Item.Properties()));
+
 
     // DREADED ITEMS
 

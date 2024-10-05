@@ -5,7 +5,6 @@ import com.kyle.hobbitcraft.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -21,51 +20,75 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         // DREADED ITEMS
 
-        simpleItem(ModItems.RAW_DREAD);
-        simpleItem(ModItems.CRUSHED_RAW_DREAD);
-        simpleItem(ModItems.DREADED_INGOT);
-        simpleItem(ModItems.DREADED_NUGGET);
-        handheldItem(ModItems.DREADED_SWORD);
-        handheldItem(ModItems.DREADED_AXE);
-        handheldItem(ModItems.DREADED_PICKAXE);
-        handheldItem(ModItems.DREADED_SHOVEL);
-        handheldItem(ModItems.DREADED_HOE);
+        simpleDreadedItem(ModItems.RAW_DREAD);
+        simpleDreadedItem(ModItems.CRUSHED_RAW_DREAD);
+        simpleDreadedItem(ModItems.DREADED_INGOT);
+        simpleDreadedItem(ModItems.DREADED_NUGGET);
+        simpleDreadedItem(ModItems.DREADED_STAR_EIN);
+        simpleDreadedItem(ModItems.DREADED_STAR_ZWEI);
+        simpleDreadedItem(ModItems.DREADED_STAR_DREI);
+        simpleDreadedItem(ModItems.DREADED_STAR_VIER);
+        simpleDreadedItem(ModItems.DREADED_STAR_SPHERE);
+        simpleDreadedItem(ModItems.DREADED_STAR_OMEGA);
+        handheldDreadedItem(ModItems.DREADED_SWORD);
+        handheldDreadedItem(ModItems.DREADED_AXE);
+        handheldDreadedItem(ModItems.DREADED_PICKAXE);
+        handheldDreadedItem(ModItems.DREADED_SHOVEL);
+        handheldDreadedItem(ModItems.DREADED_HOE);
 
         // KYLE ITEMS
 
-        simpleItem(ModItems.RAW_KYLE);
-        simpleItem(ModItems.CRUSHED_RAW_KYLE);
-        simpleItem(ModItems.KYLE_INGOT);
-        simpleItem(ModItems.KYLE_NUGGET);
-        handheldItem(ModItems.KYLE_SWORD);
-        handheldItem(ModItems.KYLE_AXE);
-        handheldItem(ModItems.KYLE_PICKAXE);
-        handheldItem(ModItems.KYLE_SHOVEL);
-        handheldItem(ModItems.KYLE_HOE);
+        simpleKyleItem(ModItems.RAW_KYLE);
+        simpleKyleItem(ModItems.CRUSHED_RAW_KYLE);
+        simpleKyleItem(ModItems.KYLE_INGOT);
+        simpleKyleItem(ModItems.KYLE_NUGGET);
+        simpleKyleItem(ModItems.KYLE_STAR_EIN);
+        simpleKyleItem(ModItems.KYLE_STAR_ZWEI);
+        simpleKyleItem(ModItems.KYLE_STAR_DREI);
+        simpleKyleItem(ModItems.KYLE_STAR_VIER);
+        simpleKyleItem(ModItems.KYLE_STAR_SPHERE);
+        simpleKyleItem(ModItems.KYLE_STAR_OMEGA);
+        handheldKyleItem(ModItems.KYLE_SWORD);
+        handheldKyleItem(ModItems.KYLE_AXE);
+        handheldKyleItem(ModItems.KYLE_PICKAXE);
+        handheldKyleItem(ModItems.KYLE_SHOVEL);
+        handheldKyleItem(ModItems.KYLE_HOE);
 
         // VINO ITEMS
 
-        simpleItem(ModItems.RAW_VINO);
-        simpleItem(ModItems.CRUSHED_RAW_VINO);
-        simpleItem(ModItems.VINO_INGOT);
-        simpleItem(ModItems.VINO_NUGGET);
-        handheldItem(ModItems.VINO_SWORD);
-        handheldItem(ModItems.VINO_AXE);
-        handheldItem(ModItems.VINO_PICKAXE);
-        handheldItem(ModItems.VINO_SHOVEL);
-        handheldItem(ModItems.VINO_HOE);
+        simpleVinoItem(ModItems.RAW_VINO);
+        simpleVinoItem(ModItems.CRUSHED_RAW_VINO);
+        simpleVinoItem(ModItems.VINO_INGOT);
+        simpleVinoItem(ModItems.VINO_NUGGET);
+        simpleVinoItem(ModItems.VINO_STAR_EIN);
+        simpleVinoItem(ModItems.VINO_STAR_ZWEI);
+        simpleVinoItem(ModItems.VINO_STAR_DREI);
+        simpleVinoItem(ModItems.VINO_STAR_VIER);
+        simpleVinoItem(ModItems.VINO_STAR_SPHERE);
+        simpleVinoItem(ModItems.VINO_STAR_OMEGA);
+        handheldVinoItem(ModItems.VINO_SWORD);
+        handheldVinoItem(ModItems.VINO_AXE);
+        handheldVinoItem(ModItems.VINO_PICKAXE);
+        handheldVinoItem(ModItems.VINO_SHOVEL);
+        handheldVinoItem(ModItems.VINO_HOE);
 
         // WIBKITIUM ITEMS
 
-        simpleItem(ModItems.RAW_WIBKITIUM);
-        simpleItem(ModItems.CRUSHED_RAW_WIBKITIUM);
-        simpleItem(ModItems.WIBKITIUM_INGOT);
-        simpleItem(ModItems.WIBKITIUM_NUGGET);
-        handheldItem(ModItems.WIBKITIUM_SWORD);
-        handheldItem(ModItems.WIBKITIUM_AXE);
-        handheldItem(ModItems.WIBKITIUM_PICKAXE);
-        handheldItem(ModItems.WIBKITIUM_SHOVEL);
-        handheldItem(ModItems.WIBKITIUM_HOE);
+        simpleWibkitiumItem(ModItems.RAW_WIBKITIUM);
+        simpleWibkitiumItem(ModItems.CRUSHED_RAW_WIBKITIUM);
+        simpleWibkitiumItem(ModItems.WIBKITIUM_INGOT);
+        simpleWibkitiumItem(ModItems.WIBKITIUM_NUGGET);
+        simpleWibkitiumItem(ModItems.WIBKITIUM_STAR_EIN);
+        simpleWibkitiumItem(ModItems.WIBKITIUM_STAR_ZWEI);
+        simpleWibkitiumItem(ModItems.WIBKITIUM_STAR_DREI);
+        simpleWibkitiumItem(ModItems.WIBKITIUM_STAR_VIER);
+        simpleWibkitiumItem(ModItems.WIBKITIUM_STAR_SPHERE);
+        simpleWibkitiumItem(ModItems.WIBKITIUM_STAR_OMEGA);
+        handheldWibkitiumItem(ModItems.WIBKITIUM_SWORD);
+        handheldWibkitiumItem(ModItems.WIBKITIUM_AXE);
+        handheldWibkitiumItem(ModItems.WIBKITIUM_PICKAXE);
+        handheldWibkitiumItem(ModItems.WIBKITIUM_SHOVEL);
+        handheldWibkitiumItem(ModItems.WIBKITIUM_HOE);
     }
 
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
@@ -78,5 +101,53 @@ public class ModItemModelProvider extends ItemModelProvider {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(HobbitCraft.MOD_ID, "item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder handheldDreadedItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(HobbitCraft.MOD_ID, "item/dreaded/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder simpleDreadedItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(HobbitCraft.MOD_ID, "item/dreaded/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder handheldKyleItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(HobbitCraft.MOD_ID, "item/kyle/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder simpleKyleItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(HobbitCraft.MOD_ID, "item/kyle/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder handheldVinoItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(HobbitCraft.MOD_ID, "item/vino/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder simpleVinoItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(HobbitCraft.MOD_ID, "item/vino/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder handheldWibkitiumItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(HobbitCraft.MOD_ID, "item/wibkitium/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder simpleWibkitiumItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(HobbitCraft.MOD_ID, "item/wibkitium/" + item.getId().getPath()));
     }
 }

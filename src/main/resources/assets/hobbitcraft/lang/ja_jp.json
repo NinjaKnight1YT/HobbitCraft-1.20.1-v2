@@ -17,6 +17,12 @@
   "item.hobbitcraft.dreaded_chestplate": "恐ろしいの胸当て",
   "item.hobbitcraft.dreaded_trousers": "恐ろしいのズボン",
   "item.hobbitcraft.dreaded_boots": "恐ろしいのブーツ",
+  "item.hobbitcraft.dreaded_star_ein": "恐ろしいの星 Ein",
+  "item.hobbitcraft.dreaded_star_zwei": "恐ろしいの星 Zwei",
+  "item.hobbitcraft.dreaded_star_drei": "恐ろしいの星 Drei",
+  "item.hobbitcraft.dreaded_star_vier": "恐ろしいの星 Vier",
+  "item.hobbitcraft.dreaded_star_sphere": "恐ろしいの星 Sphere",
+  "item.hobbitcraft.dreaded_star_omega": "恐ろしいの星 Omega",
 
   "_comment2": "KYLE ITEMS",
 
@@ -35,6 +41,12 @@
   "item.hobbitcraft.kyle_chestplate": "カイルの胸当て",
   "item.hobbitcraft.kyle_trousers": "カイルのズボン",
   "item.hobbitcraft.kyle_boots": "カイルのブーツ",
+  "item.hobbitcraft.kyle_star_ein": "カイルの星 Ein",
+  "item.hobbitcraft.kyle_star_zwei": "カイルの星 Zwei",
+  "item.hobbitcraft.kyle_star_drei": "カイルの星 Drei",
+  "item.hobbitcraft.kyle_star_vier": "カイルの星 Vier",
+  "item.hobbitcraft.kyle_star_sphere": "カイルの星 Sphere",
+  "item.hobbitcraft.kyle_star_omega": "カイルの星 Omega",
 
   "_comment3": "VINO ITEMS",
 
@@ -53,6 +65,12 @@
   "item.hobbitcraft.vino_chestplate": "ワインの胸当て",
   "item.hobbitcraft.vino_trousers": "ワインのズボン",
   "item.hobbitcraft.vino_boots": "ワインのブーツ",
+  "item.hobbitcraft.vino_star_ein": "ワインの星 Ein",
+  "item.hobbitcraft.vino_star_zwei": "ワインの星 Zwei",
+  "item.hobbitcraft.vino_star_drei": "ワインの星 Drei",
+  "item.hobbitcraft.vino_star_vier": "ワインの星 Vier",
+  "item.hobbitcraft.vino_star_sphere": "ワインの星 Sphere",
+  "item.hobbitcraft.vino_star_omega": "ワインの星 Omega",
 
   "_comment4": "WIBKITIUM ITEMS",
 
@@ -71,6 +89,12 @@
   "item.hobbitcraft.wibkitium_chestplate": "ウィブキティウムの胸当て",
   "item.hobbitcraft.wibkitium_trousers": "ウィブキティウムのズボン",
   "item.hobbitcraft.wibkitium_boots": "ウィブキティウムのブーツ",
+  "item.hobbitcraft.wibkitium_star_ein": "ウィブキティウムの星 Ein",
+  "item.hobbitcraft.wibkitium_star_zwei": "ウィブキティウムの星 Zwei",
+  "item.hobbitcraft.wibkitium_star_drei": "ウィブキティウムの星 Drei",
+  "item.hobbitcraft.wibkitium_star_vier": "ウィブキティウムの星 Vier",
+  "item.hobbitcraft.wibkitium_star_sphere": "ウィブキティウムの星 Sphere",
+  "item.hobbitcraft.wibkitium_star_omega": "ウィブキティウムの星 Omega",
 
   "_comment5": "DREADED BLOCKS",
 

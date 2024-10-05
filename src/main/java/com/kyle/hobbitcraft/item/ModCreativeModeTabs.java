@@ -113,11 +113,50 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.WIBKITIUM_SHOVEL.get());
                         output.accept(ModItems.WIBKITIUM_HOE.get());
 
+                        // STARS
+
+                        // DREADED
+
+                        output.accept(ModItems.DREADED_STAR_EIN.get());
+                        output.accept(ModItems.DREADED_STAR_ZWEI.get());
+                        output.accept(ModItems.DREADED_STAR_DREI.get());
+                        output.accept(ModItems.DREADED_STAR_VIER.get());
+                        output.accept(ModItems.DREADED_STAR_SPHERE.get());
+                        output.accept(ModItems.DREADED_STAR_OMEGA.get());
+
+                        // KYLE
+
+                        output.accept(ModItems.KYLE_STAR_EIN.get());
+                        output.accept(ModItems.KYLE_STAR_ZWEI.get());
+                        output.accept(ModItems.KYLE_STAR_DREI.get());
+                        output.accept(ModItems.KYLE_STAR_VIER.get());
+                        output.accept(ModItems.KYLE_STAR_SPHERE.get());
+                        output.accept(ModItems.KYLE_STAR_OMEGA.get());
+
+                        // VINO
+
+                        output.accept(ModItems.VINO_STAR_EIN.get());
+                        output.accept(ModItems.VINO_STAR_ZWEI.get());
+                        output.accept(ModItems.VINO_STAR_DREI.get());
+                        output.accept(ModItems.VINO_STAR_VIER.get());
+                        output.accept(ModItems.VINO_STAR_SPHERE.get());
+                        output.accept(ModItems.VINO_STAR_OMEGA.get());
+
+                        // WIBKITIUM
+
+                        output.accept(ModItems.WIBKITIUM_STAR_EIN.get());
+                        output.accept(ModItems.WIBKITIUM_STAR_ZWEI.get());
+                        output.accept(ModItems.WIBKITIUM_STAR_DREI.get());
+                        output.accept(ModItems.WIBKITIUM_STAR_VIER.get());
+                        output.accept(ModItems.WIBKITIUM_STAR_SPHERE.get());
+                        output.accept(ModItems.WIBKITIUM_STAR_OMEGA.get());
+
                         // MISCELLANEOUS
 
                         // BLOCKS
 
                         output.accept(ModBlocks.METRO.get());
+
                     })
                     .build());
 
