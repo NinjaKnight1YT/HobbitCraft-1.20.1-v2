@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "hobbitcraft:block/wibkit_plushie", "y": 180 },
+    "facing=south": { "model": "hobbitcraft:block/wibkit_plushie"},
+    "facing=west": { "model": "hobbitcraft:block/wibkit_plushie", "y": 90 },
+    "facing=east": { "model": "hobbitcraft:block/wibkit_plushie", "y": 270 }
+  }
+}

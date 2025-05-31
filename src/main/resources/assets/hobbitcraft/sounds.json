@@ -1,0 +1,34 @@
+{
+  "dreaded_disc": {
+    "sounds": [
+      {
+        "name": "hobbitcraft:dreaded_disc",
+        "stream": true
+      }
+    ]
+  },
+  "kyle_disc": {
+    "sounds": [
+      {
+        "name": "hobbitcraft:kyle_disc",
+        "stream": true
+      }
+    ]
+  },
+  "vino_disc": {
+    "sounds": [
+      {
+        "name": "hobbitcraft:vino_disc",
+        "stream": true
+      }
+    ]
+  },
+  "wibkitium_disc": {
+    "sounds": [
+      {
+        "name": "hobbitcraft:wibkitium_disc",
+        "stream": true
+      }
+    ]
+  }
+}

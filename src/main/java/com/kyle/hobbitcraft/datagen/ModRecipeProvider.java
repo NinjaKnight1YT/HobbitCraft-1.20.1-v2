@@ -2,16 +2,25 @@ package com.kyle.hobbitcraft.datagen;
 
 import com.kyle.hobbitcraft.HobbitCraft;
 import com.kyle.hobbitcraft.block.ModBlocks;
+import com.kyle.hobbitcraft.item.ModInfuseTypes;
 import com.kyle.hobbitcraft.item.ModItems;
+import mekanism.api.chemical.infuse.InfusionStack;
+import mekanism.api.datagen.recipe.builder.ItemStackChemicalToItemStackRecipeBuilder;
+import mekanism.api.datagen.recipe.builder.ItemStackToChemicalRecipeBuilder;
+import mekanism.api.recipes.ingredients.ItemStackIngredient;
+import mekanism.api.recipes.ingredients.creator.IngredientCreatorAccess;
+import mekanism.common.Mekanism;
+import mekanism.common.registries.MekanismItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
-import java.util.Iterator;
 import java.util.List;
 import java.util.function.Consumer;
 
@@ -85,8 +94,129 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.WIBKITIUM_INGOT.get(), 9)
                 .requires(ModBlocks.WIBKITIUM_BLOCK.get())
-                .unlockedBy(getHasName(ModBlocks.WIBKITIUM_BLOCK.get()), has(ModBlocks.WIBKITIUM_BLOCK  .get()))
+                .unlockedBy(getHasName(ModBlocks.WIBKITIUM_BLOCK.get()), has(ModBlocks.WIBKITIUM_BLOCK.get()))
                 .save(pWriter);
+        String basePath = "infusion_conversion/";
+        addInfusionConversionDreadedRecipe(pWriter, basePath + "dread/");
+        addInfusionConversionHobbitcraftiumRecipe(pWriter, basePath + "hobbitcraftium/");
+        addInfusionConversionKyleRecipe(pWriter, basePath + "kyle/");
+        addInfusionConversionVinoRecipe(pWriter, basePath + "vino/");
+        addInfusionConversionWibkitiumRecipe(pWriter, basePath + "wibkitium/");
+        infusionDreadRecipe(pWriter, "metallurgic_infusing/dread/");
+        infusionHobbitcraftiumRecipe(pWriter, "metallurgic_infusing/hobbitcraftium/");
+        infusionKyleRecipe(pWriter, "metallurgic_infusing/kyle/");
+        infusionVinoRecipe(pWriter, "metallurgic_infusing/vino/");
+        infusionWibkitiumRecipe(pWriter, "metallurgic_infusing/wibkitium/");
+    }
+
+    protected static void addInfusionConversionDreadedRecipe(Consumer<FinishedRecipe> consumer, String basePath) {
+        InfusionStack infusionStack1 = ModInfuseTypes.DREAD.getStack(10);
+        ItemStackToChemicalRecipeBuilder.infusionConversion(
+                IngredientCreatorAccess.item().from(new ItemStack(ModItems.DREADED_DUST.get())),
+                infusionStack1
+                ).build(consumer, Mekanism.rl( basePath + "from_dust"));
+        InfusionStack infusionStack2 = ModInfuseTypes.DREAD.getStack(80);
+        ItemStackToChemicalRecipeBuilder.infusionConversion(
+                IngredientCreatorAccess.item().from(new ItemStack(ModItems.ENRICHED_DREAD.get())),
+                infusionStack2
+                ).build(consumer, Mekanism.rl( basePath + "from_enriched"));
+    }
+
+    protected static void addInfusionConversionHobbitcraftiumRecipe(Consumer<FinishedRecipe> consumer, String basePath) {
+        InfusionStack infusionStack1 = ModInfuseTypes.HOBBITCRAFTIUM.getStack(10);
+        ItemStackToChemicalRecipeBuilder.infusionConversion(
+                IngredientCreatorAccess.item().from(new ItemStack(ModItems.HOBBITCRAFTIUM_DUST.get())),
+                infusionStack1
+                ).build(consumer, Mekanism.rl( basePath + "from_dust"));
+        InfusionStack infusionStack2 = ModInfuseTypes.HOBBITCRAFTIUM.getStack(80);
+        ItemStackToChemicalRecipeBuilder.infusionConversion(
+                IngredientCreatorAccess.item().from(new ItemStack(ModItems.ENRICHED_HOBBITCRAFTIUM.get())),
+                infusionStack2
+                ).build(consumer, Mekanism.rl( basePath + "from_enriched"));
+    }
+
+    protected static void addInfusionConversionKyleRecipe(Consumer<FinishedRecipe> consumer, String basePath) {
+        InfusionStack infusionStack1 = ModInfuseTypes.KYLE.getStack(10);
+        ItemStackToChemicalRecipeBuilder.infusionConversion(
+                IngredientCreatorAccess.item().from(new ItemStack(ModItems.KYLE_DUST.get())),
+                infusionStack1
+                ).build(consumer, Mekanism.rl(basePath + "from_dust"));
+        InfusionStack infusionStack2 = ModInfuseTypes.KYLE.getStack(80);
+        ItemStackToChemicalRecipeBuilder.infusionConversion(
+                IngredientCreatorAccess.item().from(new ItemStack(ModItems.ENRICHED_KYLE.get())),
+                infusionStack2
+                ).build(consumer, Mekanism.rl(basePath + "from_enriched"));
+    }
+
+    protected static void addInfusionConversionVinoRecipe(Consumer<FinishedRecipe> consumer, String basePath) {
+        InfusionStack infusionStack1 = ModInfuseTypes.VINO.getStack(10);
+        ItemStackToChemicalRecipeBuilder.infusionConversion(
+                IngredientCreatorAccess.item().from(new ItemStack(ModItems.VINO_DUST.get())),
+                infusionStack1
+                ).build(consumer, Mekanism.rl(basePath + "from_dust"));
+        InfusionStack infusionStack2 = ModInfuseTypes.VINO.getStack(80);
+        ItemStackToChemicalRecipeBuilder.infusionConversion(
+                IngredientCreatorAccess.item().from(new ItemStack(ModItems.ENRICHED_VINO.get())),
+                infusionStack2
+                ).build(consumer, Mekanism.rl(basePath + "from_enriched"));
+    }
+
+    protected static void addInfusionConversionWibkitiumRecipe(Consumer<FinishedRecipe> consumer, String basePath) {
+        InfusionStack infusionStack1 = ModInfuseTypes.WIBKITIUM.getStack(10);
+        ItemStackToChemicalRecipeBuilder.infusionConversion(
+                IngredientCreatorAccess.item().from(new ItemStack(ModItems.WIBKITIUM_DUST.get())),
+                infusionStack1
+                ).build(consumer, Mekanism.rl(basePath + "from_dust"));
+        InfusionStack infusionStack2 = ModInfuseTypes.WIBKITIUM.getStack(80);
+        ItemStackToChemicalRecipeBuilder.infusionConversion(
+                IngredientCreatorAccess.item().from(new ItemStack(ModItems.ENRICHED_WIBKITIUM.get())),
+                infusionStack2
+                ).build(consumer, Mekanism.rl(basePath + "from_enriched"));
+    }
+
+    protected static void infusionDreadRecipe(Consumer<FinishedRecipe> consumer, String basePath) {
+        ItemStack stack1 = new ItemStack(ModItems.DREADED_ALLOY.get());
+        ItemStackChemicalToItemStackRecipeBuilder.metallurgicInfusing(
+                IngredientCreatorAccess.item().from(MekanismItems.ATOMIC_ALLOY.get()),
+                IngredientCreatorAccess.infusion().from(ModInfuseTypes.DREAD, 80),
+                stack1
+                ).build(consumer, Mekanism.rl(basePath + "dreaded_alloy"));
+    }
+
+    protected static void infusionHobbitcraftiumRecipe(Consumer<FinishedRecipe> consumer, String basePath) {
+        ItemStack stack1 = new ItemStack(ModItems.HOBBITCRAFTIUM_ALLOY.get());
+        ItemStackChemicalToItemStackRecipeBuilder.metallurgicInfusing(
+                IngredientCreatorAccess.item().from(MekanismItems.ATOMIC_ALLOY.get()),
+                IngredientCreatorAccess.infusion().from(ModInfuseTypes.HOBBITCRAFTIUM, 80),
+                stack1
+                ).build(consumer, Mekanism.rl(basePath + "hobbitcraftium_alloy"));
+    }
+
+    protected static void infusionKyleRecipe(Consumer<FinishedRecipe> consumer, String basePath) {
+        ItemStack stack1 = new ItemStack(ModItems.KYLE_ALLOY.get());
+        ItemStackChemicalToItemStackRecipeBuilder.metallurgicInfusing(
+                IngredientCreatorAccess.item().from(MekanismItems.ATOMIC_ALLOY.get()),
+                IngredientCreatorAccess.infusion().from(ModInfuseTypes.KYLE, 80),
+                stack1
+                ).build(consumer, Mekanism.rl(basePath + "kyle_alloy"));
+    }
+
+    protected static void  infusionVinoRecipe(Consumer<FinishedRecipe> consumer, String basePath) {
+        ItemStack stack1 = new ItemStack(ModItems.VINO_ALLOY.get());
+        ItemStackChemicalToItemStackRecipeBuilder.metallurgicInfusing(
+                IngredientCreatorAccess.item().from(MekanismItems.ATOMIC_ALLOY.get()),
+                IngredientCreatorAccess.infusion().from(ModInfuseTypes.VINO, 80),
+                stack1
+                ).build(consumer, Mekanism.rl(basePath + "vino_alloy"));
+    }
+
+    protected static void infusionWibkitiumRecipe(Consumer<FinishedRecipe> consumer, String basePath) {
+        ItemStack stack1 = new ItemStack(ModItems.WIBKITIUM_ALLOY.get());
+        ItemStackChemicalToItemStackRecipeBuilder.metallurgicInfusing(
+                IngredientCreatorAccess.item().from(MekanismItems.ATOMIC_ALLOY.get()),
+                IngredientCreatorAccess.infusion().from(ModInfuseTypes.WIBKITIUM, 80),
+                stack1
+                ).build(consumer, Mekanism.rl(basePath + "wibkitium_alloy"));
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {
@@ -106,4 +236,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         }
 
     }
+
+
 }

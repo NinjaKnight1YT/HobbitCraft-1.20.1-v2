@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "hobbitcraft:block/yuki_plushie", "y": 180 },
+    "facing=south": { "model": "hobbitcraft:block/yuki_plushie"},
+    "facing=west": { "model": "hobbitcraft:block/yuki_plushie", "y": 90 },
+    "facing=east": { "model": "hobbitcraft:block/yuki_plushie", "y": 270 }
+  }
+}

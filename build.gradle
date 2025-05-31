@@ -85,6 +85,8 @@ minecraft {
         client {
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             property 'forge.enabledGameTestNamespaces', mod_id
+            properties 'mixin.env.disableRefMap': 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
         }
 
         server {
@@ -102,6 +104,7 @@ minecraft {
         data {
             // example of overriding the workingDirectory set in configureEach above
             workingDirectory project.file('run-data')
+            properties 'mixin.env.disableRefMap': 'true'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
             args '--mod', mod_id, '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
@@ -121,7 +124,25 @@ repositories {
     // flatDir {
     //     dir 'libs'
     // }
+
+    maven {
+        name "Modmaven"
+        url "https://modmaven.dev/"
+        content {
+            includeGroup('appeng')
+            includeGroup('mezz.jei')
+            includeGroup('mekanism')
+        }
+    }
+    maven {
+        name "Cursemaven"
+        url "https://cursemaven.com"
+        content {
+            includeGroup('curse.maven')
+        }
+    }
 }
+
 
 dependencies {
     // Specify the version of Minecraft to use.
@@ -131,11 +152,24 @@ dependencies {
     // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
+    compileOnly fg.deobf("appeng:appliedenergistics2-forge:15.2.13:api")
+    runtimeOnly fg.deobf("appeng:appliedenergistics2-forge:15.2.13")
+
+    implementation fg.deobf("curse.maven:projecte-226410:4901949")
+    implementation fg.deobf("curse.maven:projectextended-353775:4860891")
+    implementation fg.deobf("curse.maven:projectexpansion-579177:5772569")
+    implementation fg.deobf("curse.maven:jade-324717:5776962")
+    implementation fg.deobf("curse.maven:create-328085:5689514")
+    implementation fg.deobf("curse.maven:framedblocks-441647:5399211")
+    implementation fg.deobf("curse.maven:avaritia-623969:5740694")
+
+    implementation fg.deobf("mekanism:Mekanism:1.20.1-10.4.9.61")
+
     // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
-    // compileOnly fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}")
-    // compileOnly fg.deobf("mezz.jei:jei-${mc_version}-forge-api:${jei_version}")
-    // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}")
+    compileOnly fg.deobf("mezz.jei:jei-1.20.1-common-api:15.20.0.102")
+    compileOnly fg.deobf("mezz.jei:jei-1.20.1-forge-api:15.20.0.102")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-forge:15.20.0.102")
 
     // Example mod dependency using a mod jar from ./libs with a flat dir repository
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar

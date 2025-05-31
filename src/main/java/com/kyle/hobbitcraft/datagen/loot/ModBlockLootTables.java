@@ -16,6 +16,14 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
 
+
+        // PLUSHIES
+
+        this.dropSelf(ModBlocks.SWELL_PLUSHIE.get());
+        this.dropSelf(ModBlocks.KYLE_PLUSHIE.get());
+        this.dropSelf(ModBlocks.YUKI_PLUSHIE.get());
+        this.dropSelf(ModBlocks.WIBKIT_PLUSHIE.get());
+
         // DREADED BLOCKS
 
         this.dropSelf(ModBlocks.RAW_DREAD_BLOCK.get());
@@ -24,6 +32,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.DREADED_DEEPSLATE_ORE.get());
         this.dropSelf(ModBlocks.DREADED_NETHER_ORE.get());
         this.dropSelf(ModBlocks.DREADED_END_ORE.get());
+
+        // HOBBITCRAFTIUM BLOCK
+
+        this.dropSelf(ModBlocks.HOBBITCRAFTIUM_BLOCK.get());
 
         // KYLE BLOCKS
 
@@ -55,6 +67,14 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         // MISCELLANEOUS BLOCKS
 
         this.dropSelf(ModBlocks.METRO.get());
+
+        // COLLECTORS
+
+        this.dropSelf(ModBlocks.DREADED_COLLECTOR.get());
+        this.dropSelf(ModBlocks.HOBBITCRAFTIUM_COLLECTOR.get());
+        this.dropSelf(ModBlocks.KYLE_COLLECTOR.get());
+        this.dropSelf(ModBlocks.VINO_COLLECTOR.get());
+        this.dropSelf(ModBlocks.WIBKITIUM_COLLECTOR.get());
 
     }
 

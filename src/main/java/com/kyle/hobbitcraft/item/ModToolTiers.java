@@ -16,6 +16,10 @@ public class ModToolTiers {
             new ForgeTier(5, 1500, 4, 4, 25, ModTags.Blocks.NEEDS_DREADED_TOOL,
                     () -> Ingredient.of(ModItems.DREADED_INGOT.get())),
             new ResourceLocation(HobbitCraft.MOD_ID, "dreaded"), List.of(Tiers.NETHERITE), List.of());
+    public static final Tier HOBBITCRAFTIUM = TierSortingRegistry.registerTier(
+            new ForgeTier(5, 1500, 4, 4, 25, ModTags.Blocks.NEEDS_KYLE_TOOL,
+                    () -> Ingredient.of(ModItems.KYLE_INGOT.get())),
+            new ResourceLocation(HobbitCraft.MOD_ID, "hobbitcraftium"), List.of(Tiers.NETHERITE), List.of());
     public static final Tier KYLE = TierSortingRegistry.registerTier(
             new ForgeTier(5, 1500, 4, 4, 25, ModTags.Blocks.NEEDS_KYLE_TOOL,
                     () -> Ingredient.of(ModItems.KYLE_INGOT.get())),

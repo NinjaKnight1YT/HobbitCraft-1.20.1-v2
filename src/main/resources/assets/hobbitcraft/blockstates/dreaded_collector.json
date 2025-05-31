@@ -1,0 +1,8 @@
+{
+"variants": {
+    "facing=north": { "model": "hobbitcraft:block/dreaded_collector" },
+    "facing=south": { "model": "hobbitcraft:block/dreaded_collector", "y": 180 },
+    "facing=west": { "model": "hobbitcraft:block/dreaded_collector", "y": 270 },
+    "facing=east": { "model": "hobbitcraft:block/dreaded_collector", "y": 90 }
+  }
+}

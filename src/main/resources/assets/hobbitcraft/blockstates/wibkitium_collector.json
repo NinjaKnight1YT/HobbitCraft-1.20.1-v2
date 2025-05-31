@@ -1,0 +1,8 @@
+{
+"variants": {
+    "facing=north": { "model": "hobbitcraft:block/wibkitium_collector" },
+    "facing=south": { "model": "hobbitcraft:block/wibkitium_collector", "y": 180 },
+    "facing=west": { "model": "hobbitcraft:block/wibkitium_collector", "y": 270 },
+    "facing=east": { "model": "hobbitcraft:block/wibkitium_collector", "y": 90 }
+  }
+}
